@@ -73,15 +73,20 @@ const inventory = [
 //✅ Review objects?
 
 //✅ 1. Create hello world using REGULAR functions
-function helloWorld(){
-  return
-}
+
 //✅ 2. For Easley's bookstore, create formatPrice(price)
+
+  //round out the price to 2 decimal places
+  //turn price into a string
+  //add the "$"
+  //return the new string
+
 
 //✅ 3. Make an arrow function version of formatPrice
 
 //✅ 4. WE DO: create a blurb() function that accepts a book as an argument and logs a message in the following format:
 //'Eloquent JavaScript: A Modern Introduction to Programming by Marjin Haverbeke is on sale for $10.00'
+
 
 //✅ 5. Call formatPrice on an array of prices
 
@@ -95,6 +100,13 @@ function helloWorld(){
 
 //✅ 5e. using .map, for each book in inventory, return blurb(book)
 //output: ['Eloquent JavaScript: A Modern Introduction to Programming is on sale for $10.00', ...]
+
+const numbersTwo = [6, 8, 10 ,13]
+
+const timesTwo = numbersTwo.map((el) => {
+  return el * 2;
+
+})
 
 //✅ 6. Create a version of myMap that uses a for loop to mimic .map
 //input: array, callback function
